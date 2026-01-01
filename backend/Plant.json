@@ -1,0 +1,98 @@
+{
+  "PepperBell": {
+    "Scientific Name": "Capsicum annuum",
+    "Description": "Bell peppers are vibrant, sweet peppers that come in colors like red, yellow, orange, and green.",
+    "Uses": "Eaten raw in salads, grilled, or used in stir-fries, pizza toppings, and soups.",
+    "Benefits": "Rich in vitamins A, C, and E, antioxidants, and fiber. Promotes eye health and boosts the immune system.",
+    "Interesting Fact": "Red bell peppers have more vitamin C than an orange!",
+    "Image URL": "https://example.com/images/pepperbell.jpg"
+  },
+  "Potato": {
+    "Scientific Name": "Solanum tuberosum",
+    "Description": "A staple food worldwide, potatoes are underground tubers rich in carbohydrates.",
+    "Uses": "Mashed, boiled, baked, fried (e.g., chips, fries), soups, and stews.",
+    "Benefits": "Provides potassium, Vitamin C, and fiber. Helps regulate blood pressure when not deep-fried.",
+    "Interesting Fact": "Potatoes were the first vegetable grown in space!",
+    "Image URL": "https://example.com/images/potato.jpg"
+  },
+  "Tomato": {
+    "Scientific Name": "Solanum lycopersicum",
+    "Description": "A juicy, red fruit commonly used as a vegetable in cooking.",
+    "Uses": "Used in sauces, salads, sandwiches, pizzas, and juices.",
+    "Benefits": "Rich in lycopene (a powerful antioxidant), Vitamin C, and potassium. May reduce cancer risk.",
+    "Interesting Fact": "Tomatoes were once believed to be poisonous!",
+    "Image URL": "https://example.com/images/tomato.jpg"
+  },
+  "Soybean": {
+    "Scientific Name": "Glycine max",
+    "Description": "A legume widely cultivated for its protein-rich beans.",
+    "Uses": "Used in soy milk, tofu, soy sauce, and meat substitutes.",
+    "Benefits": "High in protein, fiber, iron, and isoflavones; supports heart health and muscle growth.",
+    "Interesting Fact": "Soybeans fix nitrogen in the soil, improving soil fertility naturally.",
+    "Image URL": "https://example.com/images/soybean.jpg"
+  },
+  "Peach": {
+    "Scientific Name": "Prunus persica",
+    "Description": "A sweet, juicy fruit with fuzzy skin and a large central seed.",
+    "Uses": "Eaten fresh, in desserts, jams, and smoothies.",
+    "Benefits": "High in Vitamin C, A, and antioxidants. Good for skin and digestion.",
+    "Interesting Fact": "China is the world's largest producer of peaches.",
+    "Image URL": "https://example.com/images/peach.jpg"
+  },
+  "Raspberry": {
+    "Scientific Name": "Rubus idaeus",
+    "Description": "Red or black aggregate fruit made of many small drupelets.",
+    "Uses": "Eaten fresh, in yogurts, desserts, jams, and teas.",
+    "Benefits": "Rich in fiber, Vitamin C, and manganese. Supports metabolism and immune health.",
+    "Interesting Fact": "Raspberries are not true berries—they’re aggregate fruits!",
+    "Image URL": "https://example.com/images/raspberry.jpg"
+  },
+  "Grape": {
+    "Scientific Name": "Vitis vinifera",
+    "Description": "Small, juicy berries that grow in clusters, varying in color.",
+    "Uses": "Eaten raw, made into wine, raisins, jelly, and juice.",
+    "Benefits": "Rich in antioxidants (resveratrol), supports heart health and reduces inflammation.",
+    "Interesting Fact": "Grapes are one of the oldest cultivated crops—dating back over 6,000 years!",
+    "Image URL": "https://example.com/images/grape.jpg"
+  },
+  "Strawberry": {
+    "Scientific Name": "Fragaria × ananassa",
+    "Description": "A bright red, sweet fruit with tiny seeds on the surface.",
+    "Uses": "Used in desserts, jams, smoothies, and salads.",
+    "Benefits": "High in Vitamin C and antioxidants. Supports heart health and improves skin quality.",
+    "Interesting Fact": "Strawberries are the only fruit with seeds on the outside!",
+    "Image URL": "https://example.com/images/strawberry.jpg"
+  },
+  "Apple": {
+    "Scientific Name": "Malus domestica",
+    "Description": "A crunchy, sweet or tart fruit available in many varieties.",
+    "Uses": "Eaten fresh, in pies, cider, juices, and salads.",
+    "Benefits": "Rich in fiber, Vitamin C, and plant compounds. Supports digestion and heart health.",
+    "Interesting Fact": "An apple a day keeps the doctor away!",
+    "Image URL": "https://example.com/images/apple.jpg"
+  },
+  "CornMaize": {
+    "Scientific Name": "Zea mays",
+    "Description": "A cereal plant with kernels used as grain, native to the Americas.",
+    "Uses": "Cornmeal, popcorn, tortillas, corn oil, and animal feed.",
+    "Benefits": "Source of fiber, B vitamins, and antioxidants like lutein and zeaxanthin (good for eyes).",
+    "Interesting Fact": "Corn is in more than 4,000 grocery store items, from soda to ketchup.",
+    "Image URL": "https://example.com/images/cornmaize.jpg"
+  },
+  "Blueberry": {
+    "Scientific Name": "Vaccinium corymbosum",
+    "Description": "Small, round, blue-purple berries known for their sweetness and tang.",
+    "Uses": "Eaten fresh or used in baking, jams, and smoothies.",
+    "Benefits": "Among the highest in antioxidants. Supports brain function and heart health.",
+    "Interesting Fact": "Native Americans used blueberries to dye fabrics and flavor meat.",
+    "Image URL": "https://example.com/images/blueberry.jpg"
+  },
+  "CherryIncludingSour": {
+    "Scientific Name": "Prunus avium / Prunus cerasus",
+    "Description": "Small, red or purple stone fruit with a pit.",
+    "Uses": "Fresh eating, pies, preserves, sauces, and juice.",
+    "Benefits": "Anti-inflammatory, supports sleep (contains melatonin), and helps in muscle recovery.",
+    "Interesting Fact": "Japan gifts thousands of cherry trees to Washington D.C. every year!",
+    "Image URL": "https://example.com/images/cherry.jpg"
+  }
+}

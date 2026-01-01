@@ -1,0 +1,314 @@
+/* Page Container */
+.prediction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+    background: url('C:\SDAM_CP\client\src\assets\B.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+}
+
+/* Upload Form */
+.prediction-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prediction-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.2);
+}
+
+.form-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+    letter-spacing: 1px;
+}
+
+.highlight {
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+.prediction-form input[type="file"] {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    outline: none;
+    background: rgba(50, 50, 50, 0.9);
+    color: #fff;
+    width: 90%;
+}
+
+.prediction-form button {
+    padding: 0.8rem 2rem;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.prediction-form button:hover {
+    background-color: #007BFF;
+    transform: scale(1.05);
+}
+
+/* Image Preview Section */
+.preview-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid #00ffcc;
+}
+
+/* Prediction Result Box */
+.prediction-result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(0, 123, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.prediction-result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Adds a glass effect */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Fancy Heading */
+.fancy-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    text-shadow: 0 0 20px rgba(0, 255, 191, 0.5), 0 0 5px rgba(0, 191, 255, 0.2);
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Glass Effect */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Plant Info Section */
+.plant-gallery-container {
+    padding: 3rem 2rem;
+    width: 100%;
+}
+
+.plant-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+
+.plant-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: left; /* Align text to left */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.plant-card:hover {
+    transform: translateY(-8px);
+}
+
+.plant-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.plant-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #00BFFF;
+    font-weight: 700;
+}
+
+.plant-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #d1d1d1;
+}
+
+.plant-card .plant-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.plant-card .plant-details strong {
+    color: #00BFFF;
+    font-size: 1.1rem;
+}
+
+/* Subtle Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .prediction-form {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    .preview-image {
+        max-width: 100%;
+    }
+
+    .prediction-result {
+        max-width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 0.5rem;
+    }
+}
+/* Plant Card Styles - Enhanced */
+.plant-card {
+    background: rgba(0, 0, 0, 0.6); /* Slightly transparent dark background */
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    backdrop-filter: blur(6px);
+}
+
+/* Hover effect to lift card */
+.plant-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 255, 204, 0.3);
+}
+
+/* Image styles */
+.plant-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+.plant-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    color: #00ffc3;
+    text-shadow: 0 0 6px rgba(0, 255, 204, 0.4);
+    letter-spacing: 0.5px;
+}
+
+/* Description text styles */
+.plant-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+/* Consistent grid layout padding */
+.plant-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+

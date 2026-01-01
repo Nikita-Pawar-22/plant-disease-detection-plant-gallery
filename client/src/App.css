@@ -1,0 +1,54 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  position:sticky;
+}
+
+nav a {
+  color: #333; /* Dark text color for contrast */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Transition for hover effect */
+}
+
+nav a:hover {
+  color: #ff9900; /* Bright color on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column; /* Stack items on smaller screens */
+      align-items: center;
+  }
+
+  .App {
+      padding: 1rem;
+      
+  }
+}
+.plant-gallery-container {
+  padding: 6rem 2rem 2rem; /* Top padding for navbar space */
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+}

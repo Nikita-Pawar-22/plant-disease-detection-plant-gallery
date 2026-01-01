@@ -1,0 +1,28 @@
+/* src/components/NavBar.css */
+
+.navbar {
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center links */
+    padding: 1rem 0; /* Vertical padding */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    position: absolute; /* Positioning to place it above content */
+    top: 0; /* Align at the top */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.nav-links {
+    display: flex; /* Flex container for links */
+}
+
+.nav-links a {
+    margin: 0 1rem; /* Space between links */
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Font size */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: #ff6600; /* Change color on hover */
+}

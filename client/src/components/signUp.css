@@ -1,0 +1,100 @@
+/* LoginPage.css */
+
+/* Apply styles to the login page container */
+.login-page {
+  background-image: url('C:\SDAM_CP\client\src\components\login.avif');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply styles to the login/signup box */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Apply styles to the login/signup title section */
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-title h2 {
+  margin: 0;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Apply styles to the login table and its elements */
+.login-table {
+  width: 100%;
+}
+
+.login-table tr {
+  margin-bottom: 20px;
+}
+
+.login-table td {
+  padding-bottom: 10px;
+}
+
+.login-table label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.login-table input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login-table input:focus {
+  border-color: #007bff;
+}
+
+/* Apply styles to the form footer */
+.form-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-footer button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-footer button:hover {
+  background-color: #0056b3;
+}
+
+.form-footer span {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.message {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: green; /* Change this color based on your preference */
+}
